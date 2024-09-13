@@ -32,7 +32,7 @@ Imagine que você tem um dataset com dados de vendas. Você pode criar um rótul
 Em conclusão, a ausência de rótulos e tags diretamente nos jobs não significa que eles não sejam importantes. Ao aplicar rótulos aos recursos utilizados pelos jobs, você obtém um controle e uma visibilidade mais eficientes sobre seus processos de análise de dados.
 
 
-![alt text](image.png)
+
 
 
 **Exemplos de Uso**:
@@ -45,11 +45,7 @@ Custo: cost_center=1234, billing_account=5678
 Criação: created_by=system, created_by=user
 Status: status=active, status=archived
 
-**Jobs**
 
-https://cloud.google.com/bigquery/docs/running-jobs?hl=pt_br
-
-https://cloud.google.com/bigquery/docs/adding-labels?hl=pt-br#job-label
 
 bq query 
 --label department:shipping 
@@ -81,10 +77,6 @@ Exemplo:
        column1, column2
      FROM
        `mydataset.mytable`'
-
-
-**Tags**
-https://cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing?hl=pt-br
 
 
 
